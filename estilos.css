@@ -1,0 +1,76 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-right: 100px solid #0E0E0E;
+    border-left: 100px solid #0E0E0E;
+    /* border-image: url(./facundo.jpg); */
+    background: #0E0E0E;
+    display:block;
+    margin: 0px;
+        
+}
+.header { 
+    /* background: #1B2027; */
+    background: #0E0E0E ;
+    color: white;
+    display:list-item;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+.header a {
+    color: white;
+    text-decoration: none ;
+}
+.logo{
+    margin: 20% 20%;
+
+}
+.menu{
+   margin: 10% 0%;
+}
+.element-format{
+    display:flex;
+    list-style-type: none;
+    margin: auto;
+}
+.element{
+    margin: auto;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One',sans-serif, Times, serif;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    line-height: 1.5em;
+}
+h1 strong{
+    color: #0061F6;
+}   
+.hero{
+    height: 350px;
+    background-color: #262e38;
+    background-image: url(./facundo.jpg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.portfolio{
+
+}
+
+
+.seccion{
+    background: #046E8F;
+}
+::marker {
+    color: #0E0E0E;
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px    ;
+    text-align: start;
+    text-align-last: start;
+}

@@ -1,22 +1,52 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro&family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="facundo.ico">
     <title>Facundo Velazco</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <header class="header"> 
+        <div>
+            <figure class="logo">
+                <img src="https://fontmeme.com/permalink/210121/5e97a48c08e6adbdc13f7d1cb3123395.png" alt="fuentes-pixeladas" border="0">
+            </figure>
+            <nav class="menu">
+                <ol class="element-format">
+                    <li class="element">
+                        <a href="#hero">¿Quién Soy?</a>
+                    </li>
+                    <li class="element">
+                        <a href="#Portafolio">Portafolio</a>
+                    </li>
+                    <li class="element">
+                        <a href="#Experiencia">Experiencia</a>
+                    </li>
+                    <li class="element">
+                        <a href="#Contacto">Trabajemos Juntos</a>                       
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <section id="hero" class="hero">
+        <h1>Hola! Soy <strong>Facundo Velazco</strong> <br> <strong>Estudiante</strong> de Ingeniería en Sistemas <br> <strong>Desarrollador</strong> web Fullstack con Symfony <br> Y <strong> CEO</strong> de mi vida</h1>
+        <!--img src="facundo.jpg" alt="esto deberia ser una imagen mia :3" width="350"-->
+    </section>
+    <section id="Portafolio" class="portfolio">Portafolio</section>
+    <section id="Experiencia" class="seccion">Experiencia</section>
+    <section id="Contacto" class="seccion">
+        <!-- Poner un action que este mejor, puede llevar javascript-->
+        <form action="/suscripcion/">
+            <label for="email">¿Creamos algo juntos?</label>
+            <input type="text" placeholder="Déjame tu email" id="email">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer></footer>
   </body>
 </html>
