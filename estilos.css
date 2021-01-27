@@ -13,35 +13,30 @@ body{
         
 }
 .header {   
-    /* background: #1B2027; */
+    background: #1B2027;
     background: #0E0E0E ;
     color: white;
     display:flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    vertical-align:middle;
-    align-items: center;
+    justify-content: space-evenly;
 }
 .header a {
     color: white;
     text-decoration: none;
+    display: flex;
 }
 .logo{
-    position: relative;
     padding-top: 30%;
     padding-bottom: 20%;
 }
 
 .menu{
-   margin: 10% 0%;
+   margin: 10% 5%;
+  
 }
 .element-format{
     display:flex;
     list-style-type: none;
-    margin: auto;
+    
 }
 .element{
     margin: auto;
@@ -59,7 +54,7 @@ h1 strong{
     color: #0061F6;
 }   
 .hero{
-    height: 350px;
+    height: 465px;
     background-color: #262e38;
     background-image: url(./facundo.jpg);
     background-size: 350px;
