@@ -30,7 +30,7 @@ body{
 
 .menu{
     display: flex;
-    margin: 10% 0;
+    margin: 5% 0;
   
 }
 .element-format{
@@ -47,6 +47,7 @@ body{
     align-self: center;
     border-collapse: collapse;
     padding: 0% 30%;
+    white-space:nowrap;
 
 }
 h1,h2,h3,h4,h5,h6{
