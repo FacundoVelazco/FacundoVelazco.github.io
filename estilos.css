@@ -6,7 +6,6 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     border-right: 100px solid #0E0E0E;
     border-left: 100px solid #0E0E0E;
-    /* border-image: url(./facundo.jpg); */
     background: #0E0E0E;
     display:block;
     margin: 0px;
@@ -16,30 +15,38 @@ body{
     background: #1B2027;
     background: #0E0E0E ;
     color: white;
-    display:flex;
+    display:flex;   
     justify-content: space-evenly;
 }
 .header a {
     color: white;
     text-decoration: none;
-    display: flex;
 }
 .logo{
+    resize: both;
     padding-top: 30%;
     padding-bottom: 20%;
 }
 
 .menu{
-   margin: 10% 5%;
+    display: flex;
+    margin: 10% 0;
   
 }
 .element-format{
     display:flex;
     list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0% 30%;
+    
     
 }
 .element{
-    margin: auto;
+    display: flex;
+    align-self: center;
+    border-collapse: collapse;
+    padding: 0% 30%;
 
 }
 h1,h2,h3,h4,h5,h6{
