@@ -6,7 +6,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     border-right: 100px solid #0E0E0E;
     border-left: 100px solid #0E0E0E;
-    background: #0E0E0E;
+    background: #262e38;
     display:block;
     margin: 0px;
         
@@ -65,22 +65,75 @@ h1 strong{
 .hero{
     display: flex;
     height: 500px;
+    border-top: 15px solid #046E8F;
     background-color: #262e38;
     background-image: url(./facundo.jpg);
     background-size: 400px;
     background-repeat: no-repeat;
     background-position-x: right;
+
 }
 .texto_presentacion{
     
 }
 .portfolio{
-
+    display: block;
+    border-top: 15px solid #046E8F;
+    border-bottom: 15px solid #046E8F;
+    background-color: #262e38;
+    padding: 0 2%;
+}
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
 }
 
+.articulo_portafolio{
+    display: flex;
+    align-items: center;
+}
 
-.seccion{
-    background: #046E8F;
+.texto_articulo_portafolio{
+    display: block;
+    padding-left: 1%;
+}
+.texto_articulo_portafolio h3 {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 28px;
+}
+.texto_articulo_portafolio h5 {
+    color: white;
+    font-weight: normal;
+}
+.texto_articulo_portafolio h5 strong{
+    color: #0061F6;
+}
+.texto_articulo_portafolio p{
+    color: white;
+    text-decoration: none;
+}
+.texto_articulo_portafolio p strong{
+    color: #0061F6;
+}
+.contenedor_imagenes_portafolio{
+    display: block;
+}
+.figure_sistema_deportivo1, .figure_sistema_deportivo2{
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 0;
+    margin-top: 0;
+}
+.imagen_sistema_deportivo1{
+    width: 400px;
+}
+
+.imagen_sistema_deportivo2{
+    width: 400px;
 }
 ::marker {
     color: #0E0E0E;
