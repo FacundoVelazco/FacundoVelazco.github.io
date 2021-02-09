@@ -2,6 +2,7 @@ html{
     height: 100%;
     width: 100%;
 }
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
     border-right: 100px solid #0E0E0E;
@@ -149,6 +150,52 @@ h2 {
     border-bottom: 15px solid #046E8F;
     background-color: #262e38;
     padding: 0 2%;
+}
+.texto_articulo_experiencia h3{
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 24px;
+}
+.texto_articulo_experiencia h5{
+    color: white;
+    font-weight: normal; 
+}
+.texto_articulo_experiencia p{
+    color: white;
+    text-decoration: none;
+}
+.texto_articulo_experiencia h5 strong, p strong{
+    color: #0061F6;
+}
+.contacto{
+    padding: 2% 1%;
+    display: block;
+    border-bottom: 15px solid #046E8F;  
+}
+form{
+    display: flex;
+    justify-content:center; 
+}
+form label{
+    padding-right: 2%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    justify-self: flex-start;
+}
+#email_text{
+    vertical-align: middle;
+}
+#email_button{
+    vertical-align: middle;
+}
+footer{
+    background: #0E0E0E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 ::marker {
     color: #0E0E0E;
