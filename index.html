@@ -11,93 +11,103 @@
   </head>
   <body>
     <header class="header"> 
-        <div>
-            <figure class="logo">
-                <img src="https://fontmeme.com/permalink/210121/5e97a48c08e6adbdc13f7d1cb3123395.png" alt="fuentes-pixeladas" border="0">
-            </figure>
-            <nav class="menu">
-                <ol class="element-format">
-                    <li class="element">
-                        <a href="#hero">¿Quién Soy?</a>
-                    </li>
-                    <li class="element">
-                        <a href="#Portafolio">Portafolio</a>
-                    </li>
-                    <li class="element">
-                        <a href="#Experiencia">Experiencia</a>
-                    </li>
-                    <li class="element">
-                        <a href="#Contacto">Trabajemos Juntos</a>                       
-                    </li>
-                </ol>
-            </nav>
+        <div class="wrapper_header">
+            <div>
+                <figure class="logo">
+                    <img src="https://fontmeme.com/permalink/210121/5e97a48c08e6adbdc13f7d1cb3123395.png" alt="fuentes-pixeladas" border="0">
+                </figure>
+                <nav class="menu">
+                    <ol class="element-format">
+                        <li class="element">
+                            <a href="#hero">¿Quién Soy?</a>
+                        </li>
+                        <li class="element">
+                            <a href="#Portafolio">Portafolio</a>
+                        </li>
+                        <li class="element">
+                            <a href="#Experiencia">Experiencia</a>
+                        </li>
+                        <li class="element">
+                            <a href="#Contacto">Trabajemos Juntos</a>                       
+                        </li>
+                    </ol>
+                </nav>
+            </div>
         </div>
     </header>
     <section id="hero" class="hero">
-        <h1 class = "texto_presentacion">Hola! Soy <strong>Facundo Velazco</strong> <br> <strong>Estudiante</strong> de Ingeniería en Sistemas <br><strong>Desarrollador</strong> web Fullstack Y<br><strong>Pasante</strong> en el ministerio de infrastructura<br>de Santa Fe</h1>
-        <!--img src="facundo.jpg" alt="esto deberia ser una imagen mia :3" width="350"-->
+        <div class="wrapper_hero">
+            <h1 class = "texto_presentacion">Hola! Soy <strong>Facundo Velazco</strong><br><strong>Estudiante</strong> de Ingeniería en Sistemas<br> y <strong>Desarrollador</strong> web Fullstack</h1>
+            <img class="hero_image" src="facundo.jpg" alt="esto deberia ser una imagen mia :3" width="350">
+        </div>
     </section>
     <section id="Portafolio" class="portfolio">
-        <h2>Proyectos Destacados</h2>
-        <article class="articulo_portafolio">
-            <div class="texto_articulo_portafolio">
-                <h3>Sistema de Gestión de Competencias Deportivas</h3>
-                <h5><strong>TECNOLOGÍAS:</strong> Java/Swing/Hibernet+JPA/Postgresql/AWS RDS</h5>
-                <p><strong>FECHA:</strong> 21/12/2020</p>
-                <p><strong>Github</strong> 
-                    <a style="color:white" href="https://github.com/FacundoVelazco/TP_DS.git">https://github.com/FacundoVelazco/TP_DS.git</a>
-                </p>
-                <p>Trabajo practico integrador de la materia Diseño de Sistemas. 
-                <br>Fue el resultado de un año de trabajo, donde se realizó do- 
-                <br>cumentacion, implementacion y despliegue. El sistema cuenta 
-                <br>con gestion completa de usuarios, diferentes tipos de compe- 
-                <br>tencias, lugares de realización. En este proyecto aprendí 
-                <br>sobre programación en Java, como utilizar AWS y como ges- 
-                <br>tionar y organizar un equipo de trabajo</p>
-            </div>
-            <div class="contenedor_imagenes_portafolio">
-                <figure class="figure_sistema_deportivo">
-                    <img src="sistema_deportivo1.jpg" class="imagen_sistema_deportivo" >
-                </figure>
-                <figure class="figure_sistema_deportivo">
-                    <img src="sistema_deportivo2.jpg" class="imagen_sistema_deportivo">
-                </figure>
-            </div>
-        </article>
-        <article class="articulo_portafolio">
-            <div class="texto_articulo_portafolio">
-                <h3>Sistema de Gestión Logistica</h3>
-                <h5><strong>TECNOLOGÍAS:</strong> Java/Postgresql/Swing/AWS RDS</h5>
-                <p><strong>FECHA:</strong> 02/08/2020</p>
-                <p><strong>Github</strong> 
-                    <a style="color:white" href="https://github.com/FacundoVelazco/TP_DIED.git">https://github.com/FacundoVelazco/TP_DIED.git</a>
-                </p>
-                <p>Trabajo practico integrador de la materia Diseño e Impleme- 
-                <br>tacion de Estructuras de Datos. Con este trabajo di mis  
-                <br>primeros pasos en Java, manejo de interfaz grafica e inte- 
-                <br>gración con Base de Datos. El foco del proyecto fue 
-                <br>implementar algunas estructuras de datos complejas y algo- 
-                <br>ritmos para manipularlas. Utilizamos grafos, pilas, colas
-                <br>tablas hash, etc.</p>
-            </div>
-            <div class="contenedor_imagenes_portafolio">
-                <figure class="figure_sistema_logistica">
-                    <img src="sistema_logistica.jpg" class="imagen_sistema_logistica" >
-                </figure>
-            </div>
-        </article>
+        <div class="wrapper_portfolio">
+            <h2>Proyectos Destacados</h2>
+            <article class="articulo_portafolio">
+                <div class="texto_articulo_portafolio">
+                    <h3>Sistema de Gestión de Competencias Deportivas</h3>
+                    <h5><strong>TECNOLOGÍAS:</strong> Java/Swing/Hibernet+JPA/Postgresql/AWS RDS</h5>
+                    <p><strong>FECHA:</strong> 21/12/2020</p>
+                    <p><strong>Github</strong> 
+                        <a style="color:white" href="https://github.com/FacundoVelazco/TP_DS.git">https://github.com/FacundoVelazco/TP_DS.git</a>
+                    </p>
+                    <p>Trabajo practico integrador de la materia Diseño de Sistemas. 
+                    <br>Fue el resultado de un año de trabajo, donde se realizó do- 
+                    <br>cumentacion, implementacion y despliegue. El sistema cuenta 
+                    <br>con gestion completa de usuarios, diferentes tipos de compe- 
+                    <br>tencias, lugares de realización. En este proyecto aprendí 
+                    <br>sobre programación en Java, como utilizar AWS y como ges- 
+                    <br>tionar y organizar un equipo de trabajo</p>
+                </div>
+                <div class="contenedor_imagenes_portafolio">
+                    <figure class="figure_sistema_deportivo">
+                        <img src="sistema_deportivo1.jpg" class="imagen_sistema_deportivo" >
+                    </figure>
+                    <figure class="figure_sistema_deportivo">
+                        <img src="sistema_deportivo2.jpg" class="imagen_sistema_deportivo">
+                    </figure>
+                </div>
+            </article>
+            <article class="articulo_portafolio">
+                <div class="texto_articulo_portafolio">
+                    <h3>Sistema de Gestión Logistica</h3>
+                    <h5><strong>TECNOLOGÍAS:</strong> Java/Postgresql/Swing/AWS RDS</h5>
+                    <p><strong>FECHA:</strong> 02/08/2020</p>
+                    <p><strong>Github</strong> 
+                        <a style="color:white" href="https://github.com/FacundoVelazco/TP_DIED.git">https://github.com/FacundoVelazco/TP_DIED.git</a>
+                    </p>
+                    <p>Trabajo practico integrador de la materia Diseño e Impleme- 
+                    <br>tacion de Estructuras de Datos. Con este trabajo di mis  
+                    <br>primeros pasos en Java, manejo de interfaz grafica e inte- 
+                    <br>gración con Base de Datos. El foco del proyecto fue 
+                    <br>implementar algunas estructuras de datos complejas y algo- 
+                    <br>ritmos para manipularlas. Utilizamos grafos, pilas, colas
+                    <br>tablas hash, etc.</p>
+                </div>
+                <div class="contenedor_imagenes_portafolio">
+                    <figure class="figure_sistema_logistica">
+                        <img src="sistema_logistica.jpg" class="imagen_sistema_logistica" >
+                    </figure>
+                </div>
+            </article>
+        </div>
     </section>
     <section id="Experiencia" class="experiencia">
-        <h2>Experiencia</h2>
-        <article>
-            <div class="texto_articulo_experiencia">
-                <h3>Pasantia en Ministerio de Infraestructura de la provincia de Santa Fe (actualidad)</h3>
-                <h5><strong>TECNOLOGÍAS:</strong> PHP/Symfony/MySql/Html/CSS/Javascript/JQuery</h5>
-                <p><strong>FECHA:</strong> 17/12/2020</p>
-                <p>Actualmente me desempeño como pasante en la sectorial de informatica del ministerio de infraestructura de la provincia de Santa Fe.
-                <br>Estoy aprendiendo sobre las tecnologias que utilizan para poder incorporarme a sus proyectos.</p>
-            </div>
-        </article>
+        <div class="wrapper_experiencia">   
+            
+            <h2 class="titulo_experiencia">Experiencia</h2>
+
+            <article class="articulo_experiencia">
+                <div class="texto_articulo_experiencia">
+                    <h3>Pasantia en Ministerio de Infraestructura de la provincia de Santa Fe (actualidad)</h3>
+                    <h5><strong>TECNOLOGÍAS:</strong> PHP/Symfony/MySql/Html/CSS/Javascript/JQuery</h5>
+                    <p><strong>FECHA:</strong> 17/12/2020</p>
+                    <p>Actualmente me desempeño como pasante en la sectorial de informatica del ministerio de infraestructura de la provincia de Santa Fe.
+                    <br>Estoy aprendiendo sobre las tecnologias que utilizan para poder incorporarme a sus proyectos.</p>
+                </div>
+            </article>
+        </div>
     </section>  
     <section id="Contacto" class="contacto">
         <div class="social1">

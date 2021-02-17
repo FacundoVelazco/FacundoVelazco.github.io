@@ -5,11 +5,12 @@ html{
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    border-right: 100px solid #0E0E0E;
-    border-left: 100px solid #0E0E0E;
-    background: #262e38;
+    background: #0E0E0E;
+    border-right: 30px #0E0E0E solid;
+    border-left: 30px #0E0E0E solid;
     display:block;
-    margin: 0px;
+    /* width: 1146px; */
+    margin: 0 auto;
         
 }
 .header {   
@@ -18,6 +19,12 @@ body{
     color: white;
     display:flex;   
     justify-content: space-evenly;
+}
+.wrapper_header{
+    margin: 0 auto;
+    display:inherit;   
+    justify-content: inherit;
+    align-items: inherit;
 }
 .header a {
     color: white;
@@ -64,25 +71,43 @@ h1 strong{
     color: #0061F6;
 }   
 .hero{
-    display: flex;
-    height: 500px;
+    /* height: 500px; */
     border-top: 15px solid #046E8F;
     background-color: #262e38;
-    background-image: url(./facundo.jpg);
-    background-size: 400px;
-    background-repeat: no-repeat;
-    background-position-x: right;
-
+    /* background-image: url(./facundo.jpg); */
+    /* background-size: 400px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.wrapper_hero{
+    margin: 0 auto;
+    display:inherit;   
+    justify-content: inherit;
+    align-items: inherit;
+}
+.hero_image{
+    object-fit: cover;
 }
 .texto_presentacion{
     padding-left: 2%;
 }
 .portfolio{
-    display: block;
+    display: flex;
+    flex-direction: column;
     border-top: 15px solid #046E8F;
     border-bottom: 15px solid #046E8F;
     background-color: #262e38;
     padding: 0 2%;
+}
+.wrapper_portfolio{
+    margin: 0 auto;
+    display:inherit;   
+    justify-content: inherit;
+    align-items: inherit;
+    flex-direction: inherit;
 }
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -146,10 +171,20 @@ h2 {
     width: 600px;
 }
 .experiencia{
-    display: block;
+    display: flex;
+    flex-direction: column;
     border-bottom: 15px solid #046E8F;
     background-color: #262e38;
     padding: 0 2%;
+}
+.wrapper_experiencia{
+    margin: 0 auto;
+    display:inherit;
+    flex-direction: inherit; 
+}
+.titulo_experiencia{
+    margin: 0 0;
+    padding-top: 2%
 }
 .texto_articulo_experiencia h3{
     color: white;
@@ -172,6 +207,7 @@ h2 {
     display: flex;
     justify-content:space-evenly;
     border-bottom: 15px solid #046E8F;  
+    background-color: #262e38;
 }
 .form{
     display: block;
