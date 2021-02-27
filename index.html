@@ -5,39 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro&family=Fjalla+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
+    <!-- <link rel="stylesheet" href="estilos.css"> -->
     <link rel="shortcut icon" href="facundo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <title>Facundo Velazco</title>
   </head>
   <body>
-    <header class="header"> 
-        <div class="wrapper_header">
-            <div>
-                <figure class="logo">
-                    <img src="https://fontmeme.com/permalink/210121/5e97a48c08e6adbdc13f7d1cb3123395.png" alt="fuentes-pixeladas" border="0">
-                </figure>
-                <nav class="menu">
-                    <ol class="element-format">
-                        <li class="element">
-                            <a href="#hero">¿Quién Soy?</a>
-                        </li>
-                        <li class="element">
-                            <a href="#Portafolio">Portafolio</a>
-                        </li>
-                        <li class="element">
-                            <a href="#Experiencia">Experiencia</a>
-                        </li>
-                        <li class="element">
-                            <a href="#Contacto">Trabajemos Juntos</a>                       
-                        </li>
-                    </ol>
-                </nav>
+    <header class="vw-100 vh-100 bg-dark d-flex justify-content-center align-items-center flex-column"> 
+            <div class="w-50 h-75 d-flex justify-content-center align-items-start align-items-sm-center">
+                <img class="w-100" src="https://fontmeme.com/permalink/210121/5e97a48c08e6adbdc13f7d1cb3123395.png"alt="fuentes-pixeladas">
             </div>
-        </div>
-    </header>
-    <section id="hero" class="hero">
+            <div class="w-75">
+                <ul class="nav justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size:1vw;" href="#hero">¿Quién Soy?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size:1vw;" href="#Portafolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size:1vw;" href="#Experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size:1vw;" href="#Contacto">Trabajemos Juntos</a>                       
+                    </li>
+                </ul>
+            </div>
+            </header>
+    <!-- <section id="hero" class="hero">
         <div class="wrapper_hero">
             <h1 class = "texto_presentacion">Hola! Soy <strong>Facundo Velazco</strong><br><strong>Estudiante</strong> de Ingeniería en Sistemas<br> y <strong>Desarrollador</strong> web Fullstack</h1>
+
             <img class="hero_image" src="facundo.jpg" alt="esto deberia ser una imagen mia :3" width="350">
         </div>
     </section>
@@ -117,15 +115,16 @@
             <form action="/suscripcion/">
                 <label id="email_label" for="email">¿Creamos algo juntos?</label>
                 <input id="email_text" type="text" placeholder="Déjame tu email">
-                <input id="email_button" type="submit" value="Enviar">
+                <input id="email_button" type="submit" value="Enviar" class="btn btn-primary">
             </form>
         </div>    
         <div class="social2">
             <a href="https://github.com/FacundoVelazco" class="social-github"></a>
         </div>
-    </section>
-    <footer>
+    </section> -->
+    <!-- <footer>
         <h2>Facundo Velazco - Blog Personal</h2>
-    </footer>
+    </footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>
