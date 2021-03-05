@@ -11,7 +11,7 @@ h1 strong{
 }   
 .hero{
     /* #124559 */
-    background-color: #124559;
+    background-color: #9E2B25;
     display: flex;
     justify-content:space-evenly;
     /* flex-wrap: wrap; */
