@@ -11,12 +11,18 @@ h1 strong{
 }   
 .hero{
     /* #124559 */
-    background-color: #9E2B25;
+    /* rubi #9A031E */
+    /* rubi mas lindo #A31621*/
+    background-color: #124559;
+    border: 5px solid #0061F6;
     display: flex;
     justify-content:space-evenly;
     /* flex-wrap: wrap; */
     align-items: center;
     flex-direction: row;
+}
+#hero_img{
+    border: 2px solid #0061F6;
 }
 .texto_presentacion{
     padding-left: 2%;
