@@ -126,11 +126,23 @@
          <h2>Facundo Velazco - Blog Personal</h2>
      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <!-- <script>
+    <script>
+        function isMobile(){
+            return (
+                (navigator.userAgent.match(/Android/i)) ||
+                (navigator.userAgent.match(/webOS/i)) ||
+                (navigator.userAgent.match(/iPhone/i)) ||
+                (navigator.userAgent.match(/iPod/i)) ||
+                (navigator.userAgent.match(/iPad/i)) ||
+                (navigator.userAgent.match(/BlackBerry/i))
+            );
+        }
         function desplazar(){
-            window.scrollTo(0, 30);
+            if(isMobile()){
+                window.scrollTo(0, 30);
+            }
         }
         window.onload = desplazar;
-    </script> -->
+    </script>
     </body>
 </html>
