@@ -51,16 +51,8 @@ h2 {
 }
 
 .experiencia{
-    display: flex;
-    flex-direction: column;
-    border-bottom: 15px solid #046E8F;
-    background-color: #262e38;
-    padding: 0 2%;
-}
-.wrapper_experiencia{
-    margin: 0 auto;
-    display:inherit;
-    flex-direction: inherit; 
+    background-color: #124559;
+    /* background-color: #262e38; */
 }
 .titulo_experiencia{
     margin: 0 0;
@@ -86,7 +78,6 @@ h2 {
     padding: 2% 1%;
     display: flex;
     justify-content:space-evenly;
-    border-bottom: 15px solid #046E8F;  
     background-color: #262e38;
 }
 .form{
