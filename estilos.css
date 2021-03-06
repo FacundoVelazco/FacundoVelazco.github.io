@@ -1,3 +1,6 @@
+body{
+    background-color: #1B2127 !important;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: 'Fjalla One',sans-serif, Times, serif;
 }
@@ -14,91 +17,40 @@ h1 strong{
     /* rubi #9A031E */
     /* rubi mas lindo #A31621*/
     background-color: #124559;
-    border: 5px solid #0061F6;
-    /* otro lindo color para borde */
-    /* border: 5px solid #046E8F; */
-    display: flex;
-    justify-content:space-evenly;
-    /* flex-wrap: wrap; */
-    align-items: center;
-    flex-direction: row;
-}
-#hero_img{
-    /* border: 2px solid #0061F6; */
 }
 .texto_presentacion{
     padding-left: 2%;
 }
 .portfolio{
-    display: flex;
-    flex-direction: column;
-    border-top: 15px solid #046E8F;
-    border-bottom: 15px solid #046E8F;
-    background-color: #262e38;
-    padding: 0 2%;
+    background-color: #124559;
+    border-top: 3vh solid;
 }
-
-/* h2 {
+h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
-} */
-
-/* .articulo_portafolio{
-    display: flex;
-    align-items: center;
-    padding-bottom: 51px;
 }
-
-.texto_articulo_portafolio{
-    display: block;
-    padding-left: 1%;
-}
-.texto_articulo_portafolio h3 {
+.project_title {
     color: white;
     font-family: 'Open Sans';
-    font-size: 28px;
 }
-.texto_articulo_portafolio h5 {
+.project_technologies {
     color: white;
     font-weight: normal;
 }
-.texto_articulo_portafolio h5 strong{
+.project_technologies strong{
     color: #0061F6;
 }
-.texto_articulo_portafolio p{
+.project_description, .project_date, .project_git{
     color: white;
     text-decoration: none;
 }
-.texto_articulo_portafolio p strong{
+.project_description strong{
     color: #0061F6;
 }
-.contenedor_imagenes_portafolio{
-    display: block;
-}
-.figure_sistema_deportivo{
-    margin-bottom: 0;
-    margin-left: 10%;
-    margin-right: 0;
-    margin-top: 0;
-}
-.imagen_sistema_deportivo{
-    width: 400px;
-    border-radius: 1%;
-    border: 10px;
-    border-color: black;
-}
-.figure_sistema_logistica{
-    margin-bottom: 0;
-    margin-left: 12%;
-    margin-right: 0;
-    margin-top: 0;
-}
-.imagen_sistema_logistica{
-    width: 600px;
-}
+
 .experiencia{
     display: flex;
     flex-direction: column;
@@ -182,7 +134,7 @@ form label{
     width: 50px;
     height: 50px;
     background-size: 50px 50px;
-} */
+}
 footer{
     color: white;
     display: flex;
