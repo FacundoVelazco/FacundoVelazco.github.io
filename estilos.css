@@ -54,31 +54,23 @@ h2 {
     background-color: #124559;
     /* background-color: #262e38; */
 }
-.titulo_experiencia{
-    margin: 0 0;
-    padding-top: 2%
-}
-.texto_articulo_experiencia h3{
+.experience_title{
     color: white;
     font-family: 'Open Sans';
     font-size: 24px;
 }
-.texto_articulo_experiencia h5{
+.experience_technologies{
     color: white;
     font-weight: normal; 
 }
-.texto_articulo_experiencia p{
+.experience_date,.experience_description{
     color: white;
-    text-decoration: none;
 }
-.texto_articulo_experiencia h5 strong, p strong{
+ h5 strong, p strong{
     color: #0061F6;
 }
 .contacto{
-    padding: 2% 1%;
-    display: flex;
-    justify-content:space-evenly;
-    background-color: #262e38;
+    background-color: #124559;
 }
 .form{
     display: block;
@@ -131,12 +123,3 @@ footer{
     align-items: center;
     justify-content: center;
 } 
-::marker {
-    color: #0E0E0E;
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px;
-    text-align: start;
-    text-align-last: start;
-}
