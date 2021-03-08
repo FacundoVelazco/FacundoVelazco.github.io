@@ -104,20 +104,30 @@
             </div>
         </section>  
         <section class="container-fluid" style="height: 3vh;"></section>
-        <section id="Contacto" class="contacto container-fluid d-flex justify-content-evenly">
-            <div class="social1 col d-flex justify-content-center py-1">
+        <section id="Contacto" class="contacto container-fluid d-none d-sm-flex justify-content-evenly">
+            <div class="d-flex justify-content-center align-items-center py-2">
                 <a href="https://www.instagram.com/facundo__velazco/" class="social-instagram"></a>
             </div>
-            <div class="col form py-2">
-                <form action="/suscripcion/">
-                    <label id="email_label" for="email">¿Creamos algo juntos?</label>
-                    <input id="email_text" type="text" placeholder="Déjame tu email">
-                    <input id="email_button" type="submit" value="Enviar" class="btn btn-primary">
-                </form>
+            <div class="d-flex align-items-center">
+                <h3 id="contact_text" class="text-center">¿Creamos algo juntos?</h3>
             </div>    
-            <div class="social2 col d-flex justify-content-center py-1">
+            <div class="d-flex justify-content-center align-items-center py-2">
                 <a href="https://github.com/FacundoVelazco" class="social-github"></a>
             </div>
+        </section>
+        <!-- secciones iguales, nada mas una es para pantallas sm -->
+        <section id="Contacto" class="contacto container-fluid d-flex d-sm-none justify-content-evenly flex-column py-2">
+            <div class="col form py-2">
+                <h3 id="contact_text" class="text-center">¿Creamos algo juntos?</h3>
+            </div> 
+            <div class="d-flex justify-content-evenly">    
+                <div class="container-fluid d-flex justify-content-center align-items-center py-1">
+                    <a href="https://www.instagram.com/facundo__velazco/" class="social-instagram"></a>
+                </div>
+                <div class="container-fluid d-flex justify-content-center align-items-center py-1">
+                    <a href="https://github.com/FacundoVelazco" class="social-github"></a>
+                </div>
+            </div>   
         </section>
      <footer>
          <h2 class="text-center p-1">Facundo Velazco - Blog Personal</h2>

@@ -72,42 +72,16 @@ h2 {
 .contacto{
     background-color: #124559;
 }
-.form{
-    display: block;
-}
-form{
-    display: flex;
-    justify-content:center; 
-}
-form label{
-    padding-right: 2%;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
+#contact_text{
     color: white;
-    justify-self: flex-start;
-    white-space:nowrap;
 }
-#email_text{
-    vertical-align: middle;
-}
-#email_button{
-    vertical-align: middle;
-}
-.social1{
-    justify-self: flex-start;
-    display: inline-block;
-}
-.social2{
-    justify-self: flex-end;
-    display: inline-block;
-}
+
 .social-instagram{
     display: block;
     background-image: url('./instagram.svg');
     width: 50px;
     height: 50px;
+    background-repeat: no-repeat;
     background-size: 50px 50px;
 }
 .social-github{
@@ -115,6 +89,7 @@ form label{
     background-image: url('./github.svg');
     width: 50px;
     height: 50px;
+    background-repeat: no-repeat;
     background-size: 50px 50px;
 }
 footer{
